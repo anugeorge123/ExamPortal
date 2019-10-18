@@ -1,0 +1,106 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>
+	sample
+    </title>
+
+
+  </head>
+  <body>
+	<form method="POST" id="formid1" >
+	{% csrf_token %}
+	<p>
+		<p>It was Sunday on Jan 1, 2006. What was the day of the week Jan 1, 2010?  </p><input type="radio" name="option1" value="option1" id= "option1.1">Sunday<br><input type="radio" name="option2" value="option2" id= "option1.2">Sunday<br><input type="radio" name="option3" value="option3" id= "option1.3">Sunday<br><input type="radio" name="option4" value="option4" id= "option1.4">Sunday<br><p>What was the day of the week on 28th May, 2006? </p><input type="radio" name="option1" value="option1" id= "option2.1">Thursday<br><input type="radio" name="option2" value="option2" id= "option2.2">Thursday<br><input type="radio" name="option3" value="option3" id= "option2.3">Thursday<br><input type="radio" name="option4" value="option4" id= "option2.4">Thursday<br><p>What was the day of the week on 17th June, 1998? </p><input type="radio" name="option1" value="option1" id= "option3.1">Monday<br><input type="radio" name="option2" value="option2" id= "option3.2">Monday<br><input type="radio" name="option3" value="option3" id= "option3.3">Monday<br><input type="radio" name="option4" value="option4" id= "option3.4">Monday<br><p> 	  What will be the day of the week 15th August, 2010? </p><input type="radio" name="option1" value="option1" id= "option4.1">Sunday<br><input type="radio" name="option2" value="option2" id= "option4.2">Sunday<br><input type="radio" name="option3" value="option3" id= "option4.3">Sunday<br><input type="radio" name="option4" value="option4" id= "option4.4">Sunday<br><p> 	  Today is Monday. After 61 days, it will be: </p><input type="radio" name="option1" value="option1" id= "option5.1">Wednesday<br><input type="radio" name="option2" value="option2" id= "option5.2">Wednesday<br><input type="radio" name="option3" value="option3" id= "option5.3">Wednesday<br><input type="radio" name="option4" value="option4" id= "option5.4">Wednesday<br><p>If 6th March, 2005 is Monday, what was the day of the week on 6th March, 2004?</p><input type="radio" name="option1" value="option1" id= "option6.1">Sunday<br><input type="radio" name="option2" value="option2" id= "option6.2">Sunday<br><input type="radio" name="option3" value="option3" id= "option6.3">Sunday<br><input type="radio" name="option4" value="option4" id= "option6.4">Sunday<br><p>The last day of a century cannot be</p><input type="radio" name="option1" value="option1" id= "option7.1">Monday<br><input type="radio" name="option2" value="option2" id= "option7.2">Monday<br><input type="radio" name="option3" value="option3" id= "option7.3">Monday<br><input type="radio" name="option4" value="option4" id= "option7.4">Monday<br><p> 	  On 8th Feb, 2005 it was Tuesday. What was the day of the week on 8th Feb, 2004? </p><input type="radio" name="option1" value="option1" id= "option8.1">Tuesday<br><input type="radio" name="option2" value="option2" id= "option8.2">Tuesday<br><input type="radio" name="option3" value="option3" id= "option8.3">Tuesday<br><input type="radio" name="option4" value="option4" id= "option8.4">Tuesday<br><p>The calendar for the year 2007 will be the same for the year:</p><input type="radio" name="option1" value="option1" id= "option9.1">2014<br><input type="radio" name="option2" value="option2" id= "option9.2">2014<br><input type="radio" name="option3" value="option3" id= "option9.3">2014<br><input type="radio" name="option4" value="option4" id= "option9.4">2014<br><p>January 1, 2007 was Monday. What day of the week lies on Jan. 1, 2008? </p><input type="radio" name="option1" value="option1" id= "option10.1">Monday<br><input type="radio" name="option2" value="option2" id= "option10.2">Monday<br><input type="radio" name="option3" value="option3" id= "option10.3">Monday<br><input type="radio" name="option4" value="option4" id= "option10.4">Monday<br><p>q</p><input type="radio" name="option1" value="option1" id= "option11.1">w<br><input type="radio" name="option2" value="option2" id= "option11.2">w<br><input type="radio" name="option3" value="option3" id= "option11.3">w<br><input type="radio" name="option4" value="option4" id= "option11.4">w<br>
+	</p>
+	</form>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+ crossorigin="anonymous"></script>
+
+
+<!--
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+
+<script type="text/javascript">
+
+
+$.ajaxSetup({
+     beforeSend: function(xhr, settings) {
+         function getCookie(name) {
+             var cookieValue = null;
+             if (document.cookie && document.cookie != '') {
+                 var cookies = document.cookie.split(';');
+                 for (var i = 0; i < cookies.length; i++) {
+                     var cookie = jQuery.trim(cookies[i]);
+                     // Does this cookie string begin with the name we want?
+                     if (cookie.substring(0, name.length + 1) == (name +'=')) {
+                         cookieValue =decodeURIComponent(cookie.substring(name.length + 1));
+                         break;
+                     }
+                 }
+             }
+             return cookieValue;
+         }
+         if (!(/^http:.*/.test(settings.url) ||
+/^https:.*/.test(settings.url))) {
+             // Only send the token to relative URLs i.e. locally.
+             xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));
+         }
+     }
+});
+
+$("#btn_submit").click(function(e){
+//alert("ajax");
+e.preventDefault();
+$.ajax({
+	url:"/",
+	type:"post",
+	datatype:"json",
+	data:$("#formid1").serialize(),
+	
+	success:function(data)
+	{	
+
+		if(data.status)
+		{
+			alert("data saved successfully ");
+		}
+		else
+		{
+		alert("Please Input Some Values!");
+		
+		}
+	},
+	error:function()
+	{
+	alert("Connection Failed");
+	}
+	});
+});
+
+
+
+
+	
+</script>
+
+  </body>
+</html>
